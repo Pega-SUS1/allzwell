@@ -152,6 +152,11 @@ nav .links {
 nav .links li {
 	list-style: none;
 }
+
+.links li:hover {
+  animation: navHover 0.5s;
+}
+
 nav .links a {
 	display: block;
 	font-size: 16px;
@@ -234,6 +239,12 @@ video {
   height: 40vh;
   width: 40vw;
 }
+
+@keyframes navHover {
+  0% {background-color: black;}
+  100% {background-color: rgb(72, 134, 0);}
+}
+
 /*#awareness {
 	color: white;
 	background-color: #EED7DB;
